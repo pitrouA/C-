@@ -1,0 +1,3 @@
+/media/pitrou/DATA/cours/cours Master 2/big data/BigData/td1/build/CMakeFiles/rebuild_cache.dir
+/media/pitrou/DATA/cours/cours Master 2/big data/BigData/td1/build/CMakeFiles/Cone.dir
+/media/pitrou/DATA/cours/cours Master 2/big data/BigData/td1/build/CMakeFiles/edit_cache.dir

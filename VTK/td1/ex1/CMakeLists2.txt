@@ -1,0 +1,40 @@
+cmake_minimum_required(VERSION 2.8)
+
+PROJECT(vtktp)
+
+
+IF(APPLE)
+
+SET( OperatingSystem "Mac os X")
+
+find_package(VTK 8.0 REQUIRED)
+
+ENDIF (APPLE)
+
+IF(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
+
+SET(OperatingSystem "Linux")
+
+
+find_package(VTK 9.0.0 REQUIRED)
+
+ENDIF(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
+
+#include_directories(${VTK_INCLUDE_DIRS})
+include(${VTK_USE_FILE})
+
+
+file(GLOB SRC_LIST ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp )
+
+
+
+add_executable(${PROJECT_NAME} ${SRC_LIST})
+
+
+target_link_libraries(${PROJECT_NAME} ${VTK_LIBRARIES})
+
+
+enable_testing()
+add_test(SimpleTest ${PROJECT_NAME})
+add_custom_target(check COMMAND ${CMAKE_CTEST_COMMAND}
+                  DEPENDS ${PROJECT_NAME})

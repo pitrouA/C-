@@ -1,0 +1,18 @@
+Start testing: Mar 19 11:17 CET
+----------------------------------------------------------
+1/1 Testing: SimpleTest
+1/1 Test: SimpleTest
+Command: "/media/pitrou/DATA/cours/cours Master 2/big data/BigData/td1/ex2/build/ad_td1"
+Directory: /media/pitrou/DATA/cours/cours Master 2/big data/BigData/td1/ex2/build
+"SimpleTest" start time: Mar 19 11:17 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   3.39 sec
+----------------------------------------------------------
+Test Passed.
+"SimpleTest" end time: Mar 19 11:17 CET
+"SimpleTest" time elapsed: 00:00:03
+----------------------------------------------------------
+
+End testing: Mar 19 11:17 CET

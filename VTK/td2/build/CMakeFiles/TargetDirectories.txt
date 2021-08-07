@@ -1,0 +1,5 @@
+/media/pitrou/DATA/cours/cours Master 2/big data/BigData/td2/build/CMakeFiles/rebuild_cache.dir
+/media/pitrou/DATA/cours/cours Master 2/big data/BigData/td2/build/CMakeFiles/edit_cache.dir
+/media/pitrou/DATA/cours/cours Master 2/big data/BigData/td2/build/CMakeFiles/test.dir
+/media/pitrou/DATA/cours/cours Master 2/big data/BigData/td2/build/CMakeFiles/ad_td2.dir
+/media/pitrou/DATA/cours/cours Master 2/big data/BigData/td2/build/CMakeFiles/check.dir
